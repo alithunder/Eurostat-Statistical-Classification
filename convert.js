@@ -108,12 +108,3 @@ async.map(files, (file, cb) => {
         })
     }
 })
-
-
-// fs.writeFile('output.json', JSON.stringify(output), 'utf8', (err) => {
-//     if (err) {
-//         console.log('error');
-//     } else {
-//         console.log('file created...')
-//     }
-// })
